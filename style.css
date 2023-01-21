@@ -39,8 +39,34 @@ nav a:last-child {
     text-underline-offset: 5px;
 }
 
+.preview {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
     padding-bottom: 5px;
+}
+
+.networks {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.networks a {
+    color: #000;
+    font-size: 1.45rem;
+    transition: all .5s;
+}
+
+.networks a:hover {
+    color: #c8bebd;
+    scale: 1.1;
+}
+
+.networks a:not(:last-child) {
+    margin-right: 35px;
 }
 
 .container {
